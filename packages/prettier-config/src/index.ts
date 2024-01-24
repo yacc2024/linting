@@ -5,5 +5,5 @@ export default {
   singleQuote: true,
   semi: false,
   trailingComma: 'none',
-  bracketSpacing: true
+  bracketSpacing: true,
 }
