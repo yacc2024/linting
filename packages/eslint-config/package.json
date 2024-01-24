@@ -1,6 +1,6 @@
 {
   "name": "@yaxc/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "type": "module",
   "description": "yaxc开发规范",
   "exports": {
@@ -34,7 +34,7 @@
     "eslint-plugin-vue": "^9.20.1"
   },
   "devDependencies": {
-    "unbuild": "^2.0.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
   }
 }
