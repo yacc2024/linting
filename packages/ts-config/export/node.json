@@ -1,5 +1,5 @@
 {
-  "extends": "./base.json",
+  "extends": "../lib/base.json",
   "compilerOptions": {
     "lib": ["ESNext"],
     "noImplicitAny": true,
