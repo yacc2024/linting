@@ -1,6 +1,6 @@
 {
   "name": "@yaxc/prettier-config",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "type": "module",
   "description": "yaxc开发规范",
   "exports": {
