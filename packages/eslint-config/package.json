@@ -1,6 +1,6 @@
 {
   "name": "@yaxc/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "type": "module",
   "description": "yaxc开发规范",
   "exports": {
