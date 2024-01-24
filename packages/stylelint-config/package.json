@@ -1,0 +1,40 @@
+{
+  "name": "@yaxc/stylelint-config",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "yaxc开发规范",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "stub": "unbuild --stub",
+    "build": "unbuild",
+    "pub": "unbuild && npm publish"
+  },
+  "author": "yacc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacc2024/linting.git",
+    "directory": "packages/styleint-config"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0",
+    "postcss-html": "^1.5.0",
+    "postcss-less": "^6.0.0",
+    "stylelint": "^16.0.2",
+    "stylelint-config-standard": "^35.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-order": "^6.0.4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@yaxc/ts-config",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "yaxc开发规范",
+  "author": "yacc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacc2024/linting.git",
+    "directory": "packages/ts-config"
+  }
+}

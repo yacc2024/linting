@@ -1,0 +1,33 @@
+{
+  "name": "@yaxc/prettier-config",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "yaxc开发规范",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "stub": "unbuild --stub",
+    "build": "unbuild",
+    "pub": "unbuild && npm publish"
+  },
+  "author": "yacc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacc2024/linting.git",
+    "directory": "packages/prettier-config"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
+}
