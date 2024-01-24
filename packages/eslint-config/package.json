@@ -27,11 +27,14 @@
     "url": "git+https://github.com/yacc2024/linting.git",
     "directory": "packages/eslint-config"
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "eslint": "^8.56.0",
-    "eslint-plugin-vue": "^9.20.1",
-    "unbuild": "^2.0.0"
+    "eslint-plugin-vue": "^9.20.1"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0",
+    "typescript": "^5.3.3"
   }
 }
