@@ -1,0 +1,9 @@
+19 error Error: Command failed with exit code 1: git remote update
+19 error fatal: unable to access 'https://github.com/yacc2024/linting.git/': Failed to connect to github.com port 443 after 75010 ms: Couldn't connect to server
+19 error     at makeError (/Users/salmanlee/workspace/github/linting/node_modules/execa/lib/error.js:59:11)
+19 error     at module.exports.sync (/Users/salmanlee/workspace/github/linting/node_modules/execa/index.js:186:17)
+19 error     at Object.execSync (/Users/salmanlee/workspace/github/linting/node_modules/lerna/dist/index.js:142:31)
+19 error     at updateRemote (/Users/salmanlee/workspace/github/linting/node_modules/lerna/dist/index.js:7769:18)
+19 error     at isBehindUpstream (/Users/salmanlee/workspace/github/linting/node_modules/lerna/dist/index.js:7759:3)
+19 error     at VersionCommand.initialize (/Users/salmanlee/workspace/github/linting/node_modules/lerna/dist/index.js:8050:57)
+19 error     at VersionCommand.runCommand (/Users/salmanlee/workspace/github/linting/node_modules/lerna/dist/index.js:1851:36)

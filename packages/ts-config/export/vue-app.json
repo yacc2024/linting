@@ -3,6 +3,7 @@
   "compilerOptions": {
     "jsx": "preserve",
     "lib": ["ESNext", "DOM"],
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "noEmit": true
   }
 }
