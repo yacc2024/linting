@@ -9,5 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/yacc2024/linting.git",
     "directory": "packages/ts-config"
-  }
+  },
+  "gitHead": "878d8d1a89021e896afe5fb612217036a670c082"
 }
