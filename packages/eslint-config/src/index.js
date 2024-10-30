@@ -42,7 +42,6 @@ export default [
   ...vueLint.configs['flat/essential'],
   {
     rules: {
-      'import/named': ['error'],
       '@typescript-eslint/no-explicit-any': ['off'], // 允许使用any
       'vue/multi-word-component-names': ['off'], // 允许组件命名用单个词
       'no-extra-semi': ['off'],
